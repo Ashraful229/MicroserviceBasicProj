@@ -24,7 +24,7 @@ public class OrderService {
         payment.setOrderId(order.getId());
         payment.setAmount(order.getPrice());
         //rest call
-        Payment paymentResponse=  template.postForObject("http://localhost:8987/payment/doPayment",payment,Payment.class);
+        Payment paymentResponse=  template.postForObject("http://PAYMENT-SERVICE/payment/doPayment",payment,Payment.class);
         response= paymentResponse.getPaymentStatus().equals("Success")?"payment  processing successfully":"there is a problem in payment api, order added to cart";
         orderRepo.save(order);
       // return  null;
