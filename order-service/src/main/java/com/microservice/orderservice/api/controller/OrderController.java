@@ -1,5 +1,8 @@
 package com.microservice.orderservice.api.controller;
 
+import com.microservice.orderservice.api.common.Payment;
+import com.microservice.orderservice.api.common.TransactionRequest;
+import com.microservice.orderservice.api.common.TransactionResponse;
 import com.microservice.orderservice.api.entity.Order;
 import com.microservice.orderservice.api.service.OrderService;
 import org.aspectj.weaver.ast.Or;
@@ -16,8 +19,9 @@ public class OrderController {
     private OrderService orderService;
 
     @PostMapping("/bookOrder")
-    public Order bookOrder(@RequestBody Order order)
+    public TransactionResponse bookOrder(@RequestBody TransactionRequest request)
     {
-       return this.orderService.saveOrder(order);
+
+       return orderService.saveOrder(request );
     }
 }
