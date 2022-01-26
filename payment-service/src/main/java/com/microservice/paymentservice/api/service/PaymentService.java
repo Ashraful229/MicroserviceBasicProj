@@ -23,4 +23,8 @@ public class PaymentService {
     {
         return new Random().nextBoolean()?"Success":"False";
     }
+
+    public Payment findPaymentHistoryByOrderId(int orderId) {
+        return this.paymentRepo.findByOrderId(orderId);
+    }
 }
