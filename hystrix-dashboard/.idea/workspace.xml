@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42bce8b5-e432-406d-a94c-ff8be20a8b03" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../cloud-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/DigiTechHRMS/HTMS SVN/hrms_backend_v2" />
   </component>
   <component name="RunManager">
     <configuration name="HystrixDashboardApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
